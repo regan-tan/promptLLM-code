@@ -1,0 +1,9 @@
+export type Prompt = {
+  id: string;
+  title: string;
+  body: string;
+  tags: string[];
+  authorId: string;
+  createdAt: string;
+  updatedAt: string;
+};
